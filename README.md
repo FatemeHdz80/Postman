@@ -28,7 +28,6 @@ The goal of this project is to validate GitHub API endpoints by creating automat
 - Update Repository
 - Create Duplicate Repository
 - Delete Repository
-- Delete Repository Without Permission
 
 ## Test Coverage
 
