@@ -21,10 +21,10 @@ jobs:
       - name: Install Newman
         run: npm install -g newman
 
-  - name: Run Postman Collection
-    env:
-      POSTMAN_TOKEN: ${{ secrets.GITHUB_TOKEN_POSTMAN }}
-    run: |
-      newman run "GitHub API Testing.postman_collection.json" \
-        -e "GitHub.postman_environment.json" \
-        --env-var "token=$POSTMAN_TOKEN"
+      - name: Run Postman Collection
+        env:
+          POSTMAN_TOKEN: ${{ secrets.GITHUB_TOKEN_POSTMAN }}
+        run: |
+          newman run "GitHub API Testing.postman_collection.json" \
+            -e "GitHub.postman_environment.json" \
+            --env-var "token=$POSTMAN_TOKEN"
