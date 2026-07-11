@@ -63,3 +63,14 @@ npm install -g newman
 Run Collection :
 newman run GitHub API Testing.postman_collection.json -e GitHub.postman_environment.json
 ```
+## Example Test Results
+
+Newman execution:
+
+- Total Requests: 10
+- Assertions: 71
+- Positive and Negative scenarios covered
+- All tests passed successfully
+
+  <img width="1107" height="827" alt="image" src="https://github.com/user-attachments/assets/d7328d46-a21f-4e10-ab1f-c2fa622359c5" />
+
