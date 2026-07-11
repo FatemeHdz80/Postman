@@ -1,4 +1,5 @@
-# GitHub API Testing with Postman & Newman
+# GitHub API Testing with Postman & Newman 
+[![Postman API Tests](https://github.com/FatemeHdz80/Postman/actions/workflows/postman-tests.yml/badge.svg?branch=main)](https://github.com/FatemeHdz80/Postman/actions/workflows/postman-tests.yml)
 
 ## Overview
 
